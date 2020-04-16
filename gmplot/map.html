@@ -6,16 +6,34 @@
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false&key=AIzaSyBKGW68OEyogCQxQTLqoaPKXxmBpV4kLkA"></script>
 <script type="text/javascript">
 	function initialize() {
-		var centerlatlng = new google.maps.LatLng(39.083300, -76.575500);
+		var centerlatlng = new google.maps.LatLng(38.983728, -76.485516);
 		var myOptions = {
-			zoom: 17,
+			zoom: 18,
 			center: centerlatlng,
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
 
-		var latlng = new google.maps.LatLng(39.083300, -76.575500);
-		var img = new google.maps.MarkerImage('/home/yixin/.local/lib/python3.6/site-packages/gmplot/markers/FF0000.png');
+		var latlng = new google.maps.LatLng(38.983400, -76.484368);
+		var img = new google.maps.MarkerImage('/home/privat33r/.local/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.984117, -76.485747);
+		var img = new google.maps.MarkerImage('/home/privat33r/.local/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
+		var marker = new google.maps.Marker({
+		title: "no implementation",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(38.983025, -76.486616);
+		var img = new google.maps.MarkerImage('/home/privat33r/.local/lib/python3.7/site-packages/gmplot/markers/6495ED.png');
 		var marker = new google.maps.Marker({
 		title: "no implementation",
 		icon: img,
@@ -24,17 +42,51 @@
 		marker.setMap(map);
 
 var PolylineCoordinates = [
-new google.maps.LatLng(39.083300, -76.575500),
-new google.maps.LatLng(39.090604, -76.624964),
+new google.maps.LatLng(38.983400, -76.484368),
+new google.maps.LatLng(38.992082, -76.533608),
 ];
 
 var Path = new google.maps.Polyline({
 clickable: false,
 geodesic: true,
 path: PolylineCoordinates,
-strokeColor: "#000000",
+strokeColor: "#6495ED",
 strokeOpacity: 1.000000,
-strokeWeight: 1
+strokeWeight: 3
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(38.984117, -76.485747),
+new google.maps.LatLng(38.934307, -76.490105),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#6495ED",
+strokeOpacity: 1.000000,
+strokeWeight: 3
+});
+
+Path.setMap(map);
+
+
+var PolylineCoordinates = [
+new google.maps.LatLng(38.983025, -76.486616),
+new google.maps.LatLng(39.012414, -76.446165),
+];
+
+var Path = new google.maps.Polyline({
+clickable: false,
+geodesic: true,
+path: PolylineCoordinates,
+strokeColor: "#6495ED",
+strokeOpacity: 1.000000,
+strokeWeight: 3
 });
 
 Path.setMap(map);
