@@ -1,0 +1,292 @@
+yixin@cyber-telematics:~/tpms-telematics/rtl$ rtl_433 -d 1 -f315000000
+rtl_433 version 20.02-24-g6b09d63 branch master at 202004142321 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/yixin/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 150 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 315.000MHz.
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:41:47
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 241.0 kPa    Temperature: 11 C         Battery   : 1             LF Triggered: 0           Storage mode: 0
+All Flags : c0           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:44:14
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 241.0 kPa    Temperature: 15 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:44:14
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 241.0 kPa    Temperature: 15 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:44:14
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 241.0 kPa    Temperature: 15 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:47:01
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 245.0 kPa    Temperature: 17 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:47:01
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 245.0 kPa    Temperature: 17 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:47:01
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 245.0 kPa    Temperature: 17 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:49:48
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 249.0 kPa    Temperature: 21 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:50:19
+model     : Toyota       type      : TPMS          id        : d35c7741
+status    : 131          pressure_PSI: 35.250      temperature_C: 21.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:50:19
+model     : Toyota       type      : TPMS          id        : d35c7741
+status    : 131          pressure_PSI: 35.250      temperature_C: 21.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:50:19
+model     : Toyota       type      : TPMS          id        : d35c7741
+status    : 131          pressure_PSI: 35.250      temperature_C: 21.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:50:20
+model     : Toyota       type      : TPMS          id        : d35ccca2
+status    : 131          pressure_PSI: 37.250      temperature_C: 26.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:52:42
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 24 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:52:42
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 24 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:52:42
+model     : Citroen      type      : TPMS          state     : c0            id        : 0d9631ea
+flags     : 0            repeat    : 2             Pressure  : 216 kPa       Temperature: 15 C         maybe_battery: 176
+mic       : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:53:29
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 249.0 kPa    Temperature: 18 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:53:29
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 249.0 kPa    Temperature: 18 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:53:29
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 249.0 kPa    Temperature: 18 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:55:29
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 251.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:55:29
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 251.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:55:49
+model     : Elantra2012  type      : TPMS          id        : 8c9ffc12
+Pressure  : 237.0 kPa    Temperature: 24 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:23
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:23
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:23
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:23
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:37
+model     : PMV-107J     type      : TPMS          id        : 0d441785
+status    : 24           battery_ok: 1             counter   : 3             failed    : OK            pressure_kPa: 233.120
+temperature_C: 7.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:58:38
+model     : PMV-107J     type      : TPMS          id        : 0e381785
+status    : 8            battery_ok: 1             counter   : 1             failed    : OK            pressure_kPa: 230.640
+temperature_C: 8.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:59:19
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 249.0 kPa    Temperature: 19 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 07:59:55
+model     : Toyota       type      : TPMS          id        : f8295d06
+status    : 128          pressure_PSI: 30.500      temperature_C: 6.000      mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:01:42
+model     : Toyota       type      : TPMS          id        : f82948f8
+status    : 128          pressure_PSI: 36.250      temperature_C: 7.000      mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:02:02
+model     : Toyota       type      : TPMS          id        : f1bb4194
+status    : 128          pressure_PSI: 31.750      temperature_C: 7.000      mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:02:12
+model     : PMV-107J     type      : TPMS          id        : 013f3776
+status    : 24           battery_ok: 1             counter   : 3             failed    : OK            pressure_kPa: 210.800
+temperature_C: 10.000    mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:02:16
+model     : Toyota       type      : TPMS          id        : f0bcbc61
+status    : 128          pressure_PSI: 34.500      temperature_C: 6.000      mic       : CRC
+                ^CSignal caught, exiting!
+yixin@cyber-telematics:~/tpms-telematics/rtl$ rtl_433 -d 1 -f315000000
+rtl_433 version 20.02-24-g6b09d63 branch master at 202004142321 inputs file rtl_tcp RTL-SDR
+Use -h for usage help and see https://triq.org/ for documentation.
+Trying conf file at "rtl_433.conf"...
+Trying conf file at "/home/yixin/.config/rtl_433/rtl_433.conf"...
+Trying conf file at "/usr/local/etc/rtl_433/rtl_433.conf"...
+Trying conf file at "/etc/rtl_433/rtl_433.conf"...
+Registered 122 out of 150 device decoding protocols [ 1-4 8 11-12 15-17 19-21 23 25-26 29-36 38-60 63 67-71 73-100 102-105 108-116 119 121 124-128 130-149 ]
+Exact sample rate is: 250000.000414 Hz
+[R82XX] PLL not locked!
+Sample rate set to 250000 S/s.
+Tuner gain set to Auto.
+Tuned to 315.000MHz.
+zxxxxxxxXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxxxzzzzzxzzzzzzzzzzzzz_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:25:19
+model     : Toyota       type      : TPMS          id        : f8d60cbf
+status    : 128          pressure_PSI: 33.000      temperature_C: 6.000      mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:25:21
+model     : PMV-107J     type      : TPMS          id        : 0d441785
+status    : 24           battery_ok: 1             counter   : 3             failed    : OK            pressure_kPa: 233.120
+temperature_C: 7.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:25:24
+model     : PMV-107J     type      : TPMS          id        : 0e382785
+status    : 24           battery_ok: 1             counter   : 3             failed    : OK            pressure_kPa: 252.960
+temperature_C: 7.000     mic       : CRC
+zxXzzzxxzzzzzzzzzzzzzzzzzzzz_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:25:41
+model     : PMV-107J     type      : TPMS          id        : 0e381785
+status    : 8            battery_ok: 1             counter   : 1             failed    : OK            pressure_kPa: 233.120
+temperature_C: 8.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:27:28
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 244.0 kPa    Temperature: 16 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:30:12
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 247.0 kPa    Temperature: 17 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:34:24
+model     : Citroen      type      : TPMS          state     : c2            id        : c865f6d9
+flags     : 12           repeat    : 1             Pressure  : 274 kPa       Temperature: 15 C         maybe_battery: 255
+mic       : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:34:24
+model     : Renault      type      : TPMS          id        : c1d9f6
+flags     : 30           pressure_kPa: 534.0 kPa   temperature_C: 71 C       mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:34:24
+model     : Citroen      type      : TPMS          state     : c2            id        : c865f6d9
+flags     : 12           repeat    : 2             Pressure  : 274 kPa       Temperature: 15 C         maybe_battery: 255
+mic       : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:34:24
+model     : Citroen      type      : TPMS          state     : c2            id        : c865f6d9
+flags     : 12           repeat    : 3             Pressure  : 274 kPa       Temperature: 15 C         maybe_battery: 255
+mic       : CHECKSUM
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:36:02
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 250.0 kPa    Temperature: 20 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:37:51
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 250.0 kPa    Temperature: 25 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:38:46
+model     : Toyota       type      : TPMS          id        : f0ec57b3
+status    : 128          pressure_PSI: 33.000      temperature_C: 14.000     mic       : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:38:50
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 250.0 kPa    Temperature: 20 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:38:50
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 250.0 kPa    Temperature: 20 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:39:31
+model     : Elantra2012  type      : TPMS          id        : 8c9ff79b
+Pressure  : 250.0 kPa    Temperature: 21 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:41:30
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 250.0 kPa    Temperature: 20 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:44:25
+model     : Elantra2012  type      : TPMS          id        : 8c9ffb9d
+Pressure  : 251.0 kPa    Temperature: 21 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:46:15
+model     : Elantra2012  type      : TPMS          id        : 8c9ffc12
+Pressure  : 235.0 kPa    Temperature: 23 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:46:22
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 248.0 kPa    Temperature: 23 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:46:22
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 248.0 kPa    Temperature: 23 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : 2020-04-16 08:46:22
+model     : Elantra2012  type      : TPMS          id        : 8c9ffe75
+Pressure  : 248.0 kPa    Temperature: 23 C         Battery   : 1             LF Triggered: 0           Storage mode: 1
+All Flags : c4           Integrity : CRC
+^CSignal caught, exiting!
