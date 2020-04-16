@@ -60,7 +60,7 @@ def bearingLine(lat,lon,bearing,d=.05):
 
     return (b_lat,b_lon)
 
-lat =39.0833
+lat = 39.0833
 lon = -76.5755
 
 p = bearingLine(lat,lon,278.4)
